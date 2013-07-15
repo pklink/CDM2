@@ -193,7 +193,7 @@ define(['Crafty', 'Colors'], function() {
                     this.step++;
                 }
 
-                if (CDM2.instance.transport.isRunning) {
+                if (this.transport.isRunning) {
                     this.play();
                 }
                 else {
@@ -241,10 +241,10 @@ define(['Crafty', 'Colors'], function() {
 
 
         run: function() {
-            CDM2.log('Initialize Crafty');
+            this.log('Initialize Crafty');
             Crafty.init();
 
-            CDM2.log('Create CDM2');
+            this.log('Create CDM2');
             this.instance = Crafty.e('CDM2');
         }
 
