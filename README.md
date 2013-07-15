@@ -2,6 +2,9 @@
 
 Drumsequencer based on Crafty
 
+## Demo
+
+http://pklink.github.io/CDM2/demo.html
 
 ## Credits
 
